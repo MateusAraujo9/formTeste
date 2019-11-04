@@ -116,6 +116,7 @@ input[type="text"], input[type="password"], input[type="number"], input[type="da
     border-right: 2px solid #F7CE3E;
 }
 .footer span{
-    color: #F7CE3E;
+    color: #FFF;
     font-size: 12px;
+    margin-right: 20px;
 }
