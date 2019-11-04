@@ -13,7 +13,7 @@
             <div class="menu-left">
                 <img src="assets/img/logo.png" alt="logo" id="logo">
                 <div>
-                    aqui vai um menu
+                    Um menu bem legal aqui
                 </div>
             </div>
             <div class="conteudo">
@@ -23,31 +23,32 @@
                         <div class="card">
                             <h3>Dados Pessoais</h3>
                             <div>
-                                <label for="nome">Nome: </label>
+                                <label for="nome">Nome</label>
                                 <input type="text" name="nome" id="nome">
                             </div>
                             <div>
-                                <label for="sobrenome">Sobrenome: </label>
+                                <label for="sobrenome">Sobrenome</label>
                                 <input type="text" name="sobrenome" id="sobrenome">                                
                             </div>
                             <div>
-                                <label for="nasc">Data de Nascimento: </label>
+                                <label for="nasc">Data de Nascimento</label>
                                 <input type="date" name="nasc" id="nasc">                                
                             </div>
                             <div>
-                                <label for="nacionalidade">Nacionalidade: </label>
+                                <label for="nacionalidade">Nacionalidade</label>
                                 <input type="text" name="nacionalidade" id="nacionalidade">
                             </div>                
                             <div>
-                                <span>Sexo: </span>
-                                <div class="flex-row">
-                                    <div class="flex-column">
-                                        <label for="masc">Masculino</label>
+                                <span>Sexo</span>
+                                <div class="flex-row sexo">
+                                    <div class="flex-row">
                                         <input type="radio" name="sexo" id="masc">
+                                        <label for="masc">Masculino</label>
                                     </div>
-                                    <div class="flex-column">
+                                    |
+                                    <div class="flex-row">                                        
+                                        <input type="radio" name="sexo" id="femin">
                                         <label for="femin">Feminino</label>
-                                        <input type="radio" name="sexo" id="femin">                                        
                                     </div>                                    
                                 </div>
                             </div>
@@ -57,15 +58,15 @@
                                 <input type="text" id="salario" readonly>
                             </div>
                             <div>
-                                <label for="cpf">CPF: </label>
+                                <label for="cpf">CPF</label>
                                 <input type="text" name="cpf" id="cpf" maxlength="11">
                             </div>
                             <div>
-                                <label for="mae">Mãe: </label>
+                                <label for="mae">Mãe</label>
                                 <input type="text" name="mae" id="mae">
                             </div>
                             <div>
-                                <label for="pai">Pai: </label>
+                                <label for="pai">Pai</label>
                                 <input type="text" name="pai" id="pai">
                             </div>
                             <div>
@@ -74,42 +75,54 @@
                             </div>
                             <div id="skill">
                                 <span>Skill's</span>
-                                <label for="html">HTML 5</label>
-                                <input type="checkbox" name="html" id="html">
-                                <label for="css">CSS 3</label>
-                                <input type="checkbox" name="html" id="html">
-                                <label for="js">JavaScript</label>
-                                <input type="checkbox" name="js" id="js">
-                                <label for="php">PHP</label>
-                                <input type="checkbox" name="php" id="php">
+                                <div>
+                                    <div class="border-right">
+                                        <div>
+                                            <label for="html">HTML 5</label>
+                                            <input type="checkbox" name="html" id="html">
+                                        </div>
+                                        <div>
+                                            <label for="css">CSS 3</label>
+                                            <input type="checkbox" name="html" id="html">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div>
+                                            <label for="js">JavaScript</label>
+                                            <input type="checkbox" name="js" id="js">
+                                        </div>
+                                        <div>
+                                            <label for="php">PHP</label>
+                                            <input type="checkbox" name="php" id="php">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="card">
-                            <h3>Informações da conta</h3>
+                            <h3>Informações da conta</h3>                        
                             <div>
-                                <div>
-                                    <label for="user">Usuário</label>
-                                    <input type="text" name="user" id="user">
-                                </div>
-                                <div>
-                                    <label for="email">E-mail</label>
-                                    <input type="email" name="email" id="email">
-                                </div>
-                                <div>
-                                    <label for="pass">Senha</label>
-                                    <input type="password" name="pass" id="pass">
-                                </div>                                <div>
-                                    <label for="cPass">Confirmar Senha</label>
-                                    <input type="password" name="cPass" id="cPass">
-                                </div>
-                                <div>
-                                    <label for="pergunta">Pergunta Secreta</label>
-                                    <input type="text" name="pergunta" id="pergunta">
-                                </div>
-                                <div>
-                                    <label for="resp">Resposta</label>
-                                    <input type="text" name="resp" id="resp">
-                                </div>
+                                <label for="user">Usuário</label>
+                                <input type="text" name="user" id="user">
+                            </div>
+                            <div>
+                                <label for="email">E-mail</label>
+                                <input type="email" name="email" id="email">
+                            </div>
+                            <div>
+                                <label for="pass">Senha</label>
+                                <input type="password" name="pass" id="pass">
+                            </div>                                <div>
+                                <label for="cPass">Confirmar Senha</label>
+                                <input type="password" name="cPass" id="cPass">
+                            </div>
+                            <div>
+                                <label for="pergunta">Pergunta Secreta</label>
+                                <input type="text" name="pergunta" id="pergunta">
+                            </div>
+                            <div>
+                                <label for="resp">Resposta</label>
+                                <input type="text" name="resp" id="resp">
                             </div>
                         </div>
                         <div class="card">
@@ -138,16 +151,17 @@
                                 <label for="num">Número</label>
                                 <input type="number" name="num" id="num">
                             </div>
+                            <div class="flex-row" id="camp-submit">
+                                <input type="submit" value="CADASTRAR" id="submit">
+                            </div>
                         </div>
                     </div>
-                    <div class="flex-row" id="camp-submit">
-                        <input type="submit" value="CADASTRAR" id="submit">
-                    </div>                
+                                    
                 </form>
             </div>
         </div>
         <div class="footer">
-
+            <span>&copy; Desenvolvido por Mateus Araújo</span>
         </div>
     </div>
     <script src="assets/js/script.js"></script>
